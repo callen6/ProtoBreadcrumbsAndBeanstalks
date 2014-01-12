@@ -127,7 +127,7 @@ a.tip span {
 
 a.tip:hover span {
 		background: #333;
-    background: rgba(0,0,0,.8);
+    background: rgba(0,0,0,1);
     border-radius: 5px;
     color: white;
     padding: 5px 20px 5px 5px;
