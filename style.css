@@ -203,6 +203,7 @@ footer {
 
 
 footer h6 {
+	margin-top: 0;
   padding-top: 20px;
   text-align: center;
 }
@@ -210,7 +211,7 @@ footer h6 {
 /* about styles */
 .about {
 	background: white;
-	height: 750px;
+	height: 650px;
 	margin-bottom: 0;
 }
 
@@ -223,7 +224,7 @@ footer h6 {
 
 .about-text {
 	margin-top: 20px;
-	width: 1200px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
