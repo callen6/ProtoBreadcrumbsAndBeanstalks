@@ -126,7 +126,7 @@ html, body {
 
 /*title styles*/
 .title-container {
-	height: 700px;
+	height: 600px;
 	text-align: center;
 	background: #E0FFEF;
 }
@@ -182,6 +182,28 @@ footer h6 {
   padding-top: 20px;
   text-align: center;
 }
+<<<<<<< HEAD
+=======
 
+/* about styles */
+.about {
+	background: white;
+	height: 750px;
+	margin-bottom: 0;
+}
+
+.about-title {
+	padding-top: 50px;
+	font-family: "Berkshire Swash", cursive;
+	text-align: center;
+	font-size: 70px;
+}
+>>>>>>> 0df26dce1efd87a8dfc7e11e823a85b2fa64592e
+
+.about-text {
+	margin-top: 20px;
+	width: 1200px;
+	margin: 0 auto;
+}
 
 
