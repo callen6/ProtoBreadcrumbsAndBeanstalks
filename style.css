@@ -25,6 +25,11 @@ html, body {
 	margin-right: auto;
 	margin-bottom: 10px;
 	text-align: center;
+	height: 150px;
+	width: 100px;
+}
+#up img {
+	opacity:0.5;
 }
 
 /*middle row styles*/
@@ -42,6 +47,14 @@ html, body {
 	text-align: center;
 }
 
+#left img {
+	opacity:0.5;
+}
+
+#right img {
+	opacity:0.5;
+}
+
 /*center styles*/
 #center {
 	margin-left: 10px;
@@ -55,6 +68,11 @@ html, body {
 	margin-right: auto;
 	margin-top: 10px;
 	text-align: center;
+	height: 150px;
+	width: 100px;
+}
+#down img {
+	opacity:0.5;
 }
 
 
