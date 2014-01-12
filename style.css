@@ -13,6 +13,30 @@ html, body {
 .explore-container {
 	margin-top: 100px;
 }
+/*explore style*/
+.explore-button {
+	font-family: "Berkshire Swash", cursive;
+	background-color: rgba(255,255,255, 0.5);
+	padding-top: 20px;
+	border: 1px solid black;
+	padding-bottom: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.navigation-wrapper {
+	margin-top: 20px;
+	font-size: 35px;
+}
+
+/*beanstalk*/
+#beanstalk {
+	margin: 0 auto;
+	width: 550px;
+	height: 75px;
+}
+
 /*box styles*/
 .orange-box {
 	height: 300px;
@@ -26,6 +50,9 @@ html, body {
 	margin-right: auto;
 	margin-bottom: 10px;
 	text-align: center;
+}
+#up img {
+	opacity:0.5;
 }
 
 /*middle row styles*/
@@ -43,6 +70,14 @@ html, body {
 	text-align: center;
 }
 
+#left img {
+	opacity:0.5;
+}
+
+#right img {
+	opacity:0.5;
+}
+
 /*center styles*/
 #center {
 	margin-left: 10px;
@@ -56,6 +91,9 @@ html, body {
 	margin-right: auto;
 	margin-top: 10px;
 	text-align: center;
+}
+#down img {
+	opacity:0.5;
 }
 
 
@@ -84,7 +122,7 @@ html, body {
 
 /*title styles*/
 .title-container {
-	height: 500px;
+	height: 700px;
 	text-align: center;
 	background: #E0FFEF;
 }
@@ -102,18 +140,6 @@ img {
 	max-height:100%;
 }
 
-
-/*explore style*/
-.explore-button {
-	font-family: "Droid-Sans", sans-serif;
-	background-color: #3584FF;
-	border: 0;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-bottom: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
-}
 
 /* tooltip */
 a.tip {
@@ -152,7 +178,6 @@ footer h5 {
   padding-top: 20px;
 }
 }
-
 
 
 
