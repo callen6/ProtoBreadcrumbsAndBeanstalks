@@ -12,6 +12,30 @@ html, body {
 .explore-container {
 	margin-top: 100px;
 }
+/*explore style*/
+.explore-button {
+	font-family: "Berkshire Swash", cursive;
+	background-color: rgba(255,255,255, 0.5);
+	padding-top: 20px;
+	border: 1px solid black;
+	padding-bottom: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.navigation-wrapper {
+	margin-top: 20px;
+	font-size: 35px;
+}
+
+/*beanstalk*/
+#beanstalk {
+	margin: 0 auto;
+	width: 550px;
+	height: 75px;
+}
+
 /*box styles*/
 .orange-box {
 	height: 300px;
@@ -97,7 +121,7 @@ html, body {
 
 /*title styles*/
 .title-container {
-	height: 500px;
+	height: 700px;
 	text-align: center;
 	background: #E0FFEF;
 }
@@ -116,18 +140,6 @@ img {
 }
 
 
-/*explore style*/
-.explore-button {
-	font-family: "Droid-Sans", sans-serif;
-	background-color: #3584FF;
-	border: 0;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-bottom: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
-}
-
 /* tooltip */
 a.tip {
     text-decoration: none;
@@ -141,7 +153,7 @@ a.tip span {
 
 a.tip:hover span {
 		background: #333;
-    background: rgba(0,0,0,.8);
+    background: rgba(0,0,0,1);
     border-radius: 5px;
     color: white;
     padding: 5px 20px 5px 5px;
@@ -154,7 +166,6 @@ a.tip:hover span {
     top: 10px;
     text-decoration: none;
 }
-
 
 
 
