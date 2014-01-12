@@ -8,7 +8,6 @@ html, body {
 }
 /*box styles*/
 .orange-box {
-	background: orange;
 	height: 300px;
 	width: 200px;
 	font-family: "Droid Sans", Helvetica, sans-serif;
@@ -18,7 +17,6 @@ html, body {
 #up {
 	margin-left: auto;
 	margin-right: auto;
-	height: 150px;
 	margin-bottom: 10px;
 	text-align: center;
 }
@@ -50,14 +48,13 @@ html, body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
-	height: 150px;
 	text-align: center;
 }
 
 
 /*arrow styles*/
 .arrow-box {
-	height: 20px;
+	height: 100px;
 	width: 200px;
 }
 
@@ -92,9 +89,11 @@ html, body {
   padding-top: 30px;
 }
 
-
-
-
+/*image placement*/
+img {
+	max-width:100%;
+	max-height:100%;
+}
 
 
 
