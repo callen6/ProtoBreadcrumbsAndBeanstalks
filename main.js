@@ -19,21 +19,8 @@ var Page = {
 		Page.scrollTo($(sectionClass).offset().top + 75);
 	},
 
-// 	setProjectHover:function() {
-// 		$('#center').hover(function() {
-// 			$(this).find('img').first().transition({
-// 				scale: 1.2
-// 			})
-// 		}, function() {
-// 			$(this).find('img').first().transition({
-// 				scale: 1
-// 		});
-// 	})
-// }
-
 };
 
 $(function() {
 	Page.setNavigationClicks();
-	// Page.setProjectHover();
 });
