@@ -6,6 +6,12 @@ html, body {
 	 margin: 0;
 	 padding: 0;
 }
+
+/*explore container styles*/
+
+.explore-container {
+	margin-top: 100px;
+}
 /*box styles*/
 .orange-box {
 	height: 300px;
