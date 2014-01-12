@@ -101,6 +101,7 @@ img {
 	max-height:100%;
 }
 
+
 /*explore style*/
 .explore-button {
 	font-family: "Droid-Sans", sans-serif;
@@ -112,5 +113,36 @@ img {
 	padding-left: 50px;
 	padding-right: 50px;
 }
+
+/* tooltip */
+a.tip {
+    text-decoration: none;
+}
+a.tip:hover {
+    position: relative;
+}
+a.tip span {
+    display: none;
+}
+
+a.tip:hover span {
+		background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    left: 0px;
+    margin: 10px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    text-decoration: none;
+}
+
+
+
+
 
 
