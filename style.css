@@ -8,6 +8,14 @@ html, body {
    background-color: #D0D0D0 ;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+a.visited {
+	text-decoration: none;
+	color: black;
+}
 /*explore container styles*/
 
 .explore-container {
@@ -24,6 +32,20 @@ html, body {
 	padding-left: 50px;
 	padding-right: 50px;
 }
+
+.about-button {
+	margin-top: 50px;
+	font-family: "Berkshire Swash", cursive;
+/*	background-color: rgba(255,255,255, 0.5);
+	padding-top: 20px;
+	border: 1px solid black;
+	padding-bottom: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;*/
+	font-size: 18px;
+}
+
 
 .navigation-wrapper {
 	margin-top: 20px;
@@ -126,7 +148,7 @@ html, body {
 
 /*title styles*/
 .title-container {
-	height: 600px;
+	height: 650px;
 	text-align: center;
 	background: #E0FFEF;
 }
@@ -177,6 +199,8 @@ footer {
   background-color: #E0FFEF;
   height: 50px;
 }
+
+
 
 footer h6 {
   padding-top: 20px;
