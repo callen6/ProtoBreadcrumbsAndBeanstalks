@@ -1,5 +1,5 @@
-ProtoBreadcrumbsAndBeanstalks
-=============================
+Breadcrumbs & Beanstalks
+========================
 
 >HTML, CSS, and Javascript mock-up of a book exploration tool to re-introduce the rich contextual experience of visiting a library and help readers discover meaningful resources. 
 >
