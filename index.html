@@ -1,1 +1,106 @@
-Hello world.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+	<title>Breadcrumbs & Beanstalks</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="modernizer.js">
+  <script type="text/javascript" src='main.js'></script>
+</head>
+<body>
+
+<div class="title-container">
+	<div id="title">Breadcrumbs & Beanstalks</div>
+	<div id="beanstalk"><img src="images/beanstalk.png"></div>
+	<nav class="navigation-wrapper">
+		<div class="buttons-wrapper">
+		        <a href="explore-container">
+		        	<button class="explore-button">Explore Books</button>
+		        </a>
+		        <br>
+		        <a href="about">
+		        	<div class="about-button">About</div>
+		        </a>
+  </div>
+</nav>
+</div>
+
+<div class="explore-container">
+<a href="#" class="tip">
+	<div class="orange-box" id="up">
+	<img src="images/cretaceous.jpg"><span>
+			<p>Reassessment of Reptilian Diversity Across the Cretaceous-Tertiary Boundary </p>
+			<p>Robert M. Sullivan</p>
+			<p>Date: 1987</p>
+			<p>Subject: Prehistoric Life</p></span></a>
+	</div>
+
+	<div id="up-arrow"><a href="up.html#middle" class='tip'><img class="arrow-img" src="images/up-arrow.png"><span>Broader Subject</span></a></div>
+
+	<div class="middle-container" id="middle">
+
+		<div class="arrow-box" id="left-arrow" ><a href="left.html#middle" class='tip'><img class="arrow-img" src="images/left-arrow.png"><span>Older Publication Date</span></a></div>
+
+		<div class="orange-box" id="left">
+		<a href="left.html#middle" class="tip">
+		<img src="images/allabout.jpg"><span>
+			<p>All About Dinosaurs</p>
+			<p>Roy Chapman Andrews</p>
+			<p>Date: 1953</p>
+			<p>Subject: Dinosaurs</p></span></a>
+		</div>
+
+		<div class="orange-box" id="center">
+		<a href="#" class="tip">
+		<img src="images/lgcompletedino.jpg"><span>
+			<p>The Complete Dinosaur</p>
+			<p>Thomas K. Holtz, James 0. Farlow</p>
+			<p>Date: 1997</p>
+			<p>Subject: Dinosaurs</p></span></a>
+		</div>
+
+		<div class="orange-box" id="right">
+		<a href="right.html#middle" class="tip">
+		<img src="images/howbig.jpg"><span>
+			<p>How Big Were the Dinosaurs</p>
+			<p>C.E. Thompson</p>
+			<p>Date: 1998</p>
+			<p>Subject: Dinosaurs</p></span></a>
+		</div>
+
+		<div class="arrow-box" id="right-arrow" ><a href="right.html#middle" class='tip'><img class="arrow-img"  src="images/right-arrow.png"><span>Newer Publication Date</span></a></div>
+	</div>
+
+	<div id="down-arrow"><a href="down.html#middle" class='tip'><img class="arrow-img"  src="images/down-arrow.png"><span>Narrower Subject</span></a></div>
+
+	<div class="orange-box" id="down">
+	<a href="down.html#middle" class="tip">
+	<img src="images/JurassicWest.jpg"><span>
+			<p>Jurassic West: The Dinosaurs of the Morrison Formation and Their World</p>
+			<p>John Foster</p>
+			<p>Date: 2007</p>
+			<p>Subject: Dinosaurs - Jurassic</p></span></a>
+	</div>
+</div>
+
+<div class="about">
+	<div class="about-title">About</div>
+	<div id="beanstalk"><img src="images/beanstalk.png"></div>
+	<div class="about-text">
+		<p>We focused on two questions: How can the experience of serendipity in the physical library be translated to the digital library? With essentially infinite online resources, how can we allow users to narrow their search to the most useful materials while also providing them the ability to seamlessly step back and browse related material, whether by author, subject, publication date, or other semantically linked data?</p>
+
+		<p>As a front end discoverability layer, we focused on creating an intuitive and heavily visual navigation system. Something to encourage user self sufficiency and incorporate accessibility best practices. Something to harness underlying library metadata and present it in a way that doesn’t make you think about the underlying metadata.	So, we again took stock of our surroundings & remembered the stories we grew up on, the stories that served as touchstones for so many: tales of breadcrumbs & beanstalks leading to treasures; leading home.</p>
+
+		<p>After going down the rabbit hole of library metadata, we decided to scale back and create a working prototype of our vision with a sample set of items. In other words, our code does not yet plug into an existing API or harness any library’s data but is instead a proof of concept that we hope to expand in the future (contributors welcome!).</p>
+
+		<p>One idea we’ve explored in this prototype is harnessing the hierarchical nature of the Library of Congress Classification system. Currently, the top-down axis navigates by subject. For example, clicking up broadens the subject search, and clicking down narrows the search. In our prototype the hierarchy goes from Fossils to Prehistoric Life to Dinosaurs to Jurassic to Tyrannosaurus Rex South Dakota (Sue) allowing the user to visually see the drilling down of specificity of the books they are searching.</p>
+
+	</div>
+</div>
+
+<footer><h6>Made for the NYPL Open Book Hack Weekend by Cori Allen, Zach Coble, Shawn Farrell, Elizabeth Wiethoff, & Amy Wolfe.</h6>
+</footer>
+</body>
+</html>
