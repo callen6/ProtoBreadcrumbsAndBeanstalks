@@ -3,7 +3,7 @@ Breadcrumbs & Beanstalks
 
 >HTML, CSS, and Javascript mock-up of a book exploration tool to re-introduce the rich contextual experience of visiting a library and help readers discover meaningful resources. 
 >
->Created for New York Public Library's Open Book Hack Weekend 2014.
+>Created for New York Public Library's [Open Book Hack Weekend 2014] (https://github.com/openbook2014/nypl-hack-weekend/wiki).
 
 About
 -----
